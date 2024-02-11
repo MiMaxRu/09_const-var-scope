@@ -178,7 +178,7 @@
 
         const cardContainer = document.createElement('div');
         cardContainer.className = 'card__container';
-        const containerWidth = count * 100;
+        const containerWidth = count * 100 / 1.5;
         cardContainer.style.width = `${containerWidth}px`;
         cardContainer.style.height = `${containerWidth}px`;
         gameContainer.append(cardContainer);
